@@ -1,6 +1,6 @@
 node {   
     stage('Clone repository') {
-        git credentialsId: 'git', url: 'https://github.com/amachlou/devops_app'
+        git credentialsId: 'git', url: 'https://github.com/Jijinet/devops_app'
     }
     
     stage('Build image') {
